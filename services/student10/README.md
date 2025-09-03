@@ -1,6 +1,6 @@
 # Student10 Service
 
-**Student:** Juan David Pinto 
+**Student:** Juan David Pinto 👾
 
 ## Description
 
@@ -22,4 +22,4 @@ docker run -p 8110:8080 student10
 
 ## Technology:
 
-- BusyBox with static HTML
+- Express with static HTML 🥶🥶
