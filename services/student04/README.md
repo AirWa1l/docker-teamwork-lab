@@ -18,7 +18,3 @@ docker run -p 8104:8080 student04
 
 - `http://localhost:8104/` - Returns "Hello, I am Jhoan Sebastian Rivera"
 - `http://localhost:8104/health` - Returns "ok"
-
-## Technology:
-
-- BusyBox with static HTML
