@@ -8,6 +8,7 @@ Simple web service that responds with my name and a health check endpoint.
 
 ## How to run individually:
 
+
 ```bash
 cd services/student10
 docker build -t student10 .
