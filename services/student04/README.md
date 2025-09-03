@@ -1,6 +1,6 @@
 # Student04 Service
 
-**Student:** Jhoan Sebastian Rivera
+**Student:** Jhoan Sebastian Rivera 
 
 ## Description
 
@@ -16,7 +16,7 @@ docker run -p 8104:8080 student04
 
 ## Endpoints:
 
-- `http://localhost:8104/` - Returns "Hello, I am Jhoan Sebastian Rivera "
+- `http://localhost:8104/` - Returns "Hello, I am Jhoan Sebastian Rivera"
 - `http://localhost:8104/health` - Returns "ok"
 
 ## Technology:
