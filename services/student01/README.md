@@ -20,6 +20,3 @@ docker run -p 8101:8080 student01
 - `http://localhost:8110/` - Returns "Hello, I am Alejandra Moya :D"
 - `http://localhost:8110/health` - Returns "ok"
 
-## Technology:
-
-- BusyBox with static HTML
