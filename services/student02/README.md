@@ -11,14 +11,11 @@ It responds with my name on the root endpoint and provides a health check endpoi
 ---
 
 ## 📂 Project Structure  
-services/student02/
-│── app/
-│ └── server.js # Main Express server
-│── Dockerfile # Docker build instructions
+services/student02/<br/>
+│── app/<br/>
+│ └── main.js # Main Express server<br/>
+│── Dockerfile # Docker build instructions<br/>
 └── README.md # Documentation
-
-yaml
-Copiar código
 
 ---
 
@@ -27,30 +24,27 @@ Copiar código
 1. Navigate to the service folder:
    ```bash
    cd services/student02
+   ```
 Build the Docker image:
-
-bash
-Copiar código
-docker build -t student02 .
+   ```bash
+   docker build -t student02 .
+   ```
 Run the container (mapping container port 8080 to host port 8102):
-
-bash
-Copiar código
-docker run -p 8102:8080 student02
-🌐 Endpoints
+ ```bash
+ docker run -p 8102:8080 student02
+   ```
+## 🌐 Endpoints
 Root
-http://localhost:8102/
+http://localhost:8102/<br/>
+👉 Returns:<br/>
+Hello, I am student02, my name is Michael Ramirez. I live in Colombia 🇨🇴<br/>
+Health Check<br/>
+http://localhost:8102/health<br/>
 👉 Returns:
-
-text
-Copiar código
-Hello, I am student02, my name is Michael Ramirez. I live in Colombia 🇨🇴
-Health Check
-http://localhost:8102/health
-👉 Returns:
-
+ ```bash
 ok
-🛠️ Technology Stack
-Node.js 20 (Alpine)
+   ```
+## 🛠️ Technology Stack
+Node.js 20 (Alpine)<br/>
 Express.js
 
