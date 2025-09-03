@@ -9,7 +9,7 @@ Simple web service that responds with my name and a health check endpoint.
 ## How to run individually:
 
 ```bash
-cd services/student06
+cd services/student03
 docker build -t student03 .
 docker run -p 8103:8080 student03
 ```
